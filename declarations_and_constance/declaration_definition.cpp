@@ -1,4 +1,4 @@
-
+//2.7 2:
 char ch;
 int count = 2;
 char* name = "Aleh";
@@ -17,6 +17,15 @@ int count;
 float read(complex*);
 
 
+//2.7 3:
+char* n;
+int numbers[10];
+int* t = numbers;
+//int& num = t; is it posible?
+char* lines[10];
+char** nPointer = &n;
+const int sol = 235;
+//int* ar = sol; is it posible?
 
 
 int main(){

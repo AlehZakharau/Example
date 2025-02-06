@@ -21,11 +21,12 @@ float read(complex*);
 char* n;
 int numbers[10];
 int* t = numbers;
-//int& num = t; is it posible?
+int (&num)[10] = numbers; 
 char* lines[10];
 char** nPointer = &n;
 const int sol = 235;
-//int* ar = sol; is it posible?
+const int& ar = sol; 
+const int* psol = &sol;
 
 
 int main(){

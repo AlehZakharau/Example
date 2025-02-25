@@ -1,2 +1,7 @@
 {
+   "files.associations": {
+      "*.lsh": "lua",
+      "ios": "cpp",
+      "iostream": "cpp"
+   }
 }
